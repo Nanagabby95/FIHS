@@ -1,5 +1,5 @@
 button{
-    background-color: black;
+    background-color: blue;
     padding: 20px 50px;
     border: none;
     color: white;
@@ -16,8 +16,25 @@ body{
     width: 100%;
     background-color: rgb(229, 139, 247);
     padding-top: 50px;
+    background-image: url(/images//fihsImage.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 h1{
-    background-color: purple;
+    background-color: white;
     padding: 20px 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.imgDiv{
+    width: 30vw;
+    height: 50vh;  
+}
+.imgDiv img{
+    width: 200px;
+    border-radius: 10px;
 }

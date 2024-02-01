@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(48, 3, 3);
+    color: rgba(255, 217, 0, 0.61);
+  }
+  
+  #quiz-container{
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  #quiz-container{
+    margin-top: 100px;
+  }
